@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Slider {
+    width: 100%;
+    position: fixed;
+    top:200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Slide {
+    display: flex;
+    width: 100%;
+    height:500px;
+}
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}

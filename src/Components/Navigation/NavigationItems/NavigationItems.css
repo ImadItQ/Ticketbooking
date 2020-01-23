@@ -1,0 +1,22 @@
+.NavigationItems {
+    margin: 5px;
+    padding:13px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: x-large;
+    height: 100%;
+}
+.button {
+    background-color:inherit;
+    border-color: white;
+    color:white;
+    font-size: x-large;
+    text-decoration: none;
+}
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+}

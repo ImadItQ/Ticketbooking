@@ -1,0 +1,21 @@
+.Sidebar {
+   width:100%;
+   padding:10px;
+   position: fixed;
+   top: 720px;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: lighter;
+    color:black;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    top: 700px;
+}
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

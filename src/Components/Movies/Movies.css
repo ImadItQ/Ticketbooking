@@ -1,0 +1,46 @@
+.images{
+    text-align: center;
+    position: fixed;
+    padding: 60px;
+    margin: auto;
+    top:800px;
+    left:500px;
+    width: 100%;
+ }
+ .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 480px;
+    border-radius: 15px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  p{
+    padding:10px;
+    margin: auto;
+    color: gray;
+    font-size: 24px;
+}
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .h2{
+    font-size: 42px;
+    font-weight:bold;
+    color:black;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    top: 780px;
+    right: 670px;
+}
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+  }

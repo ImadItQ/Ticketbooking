@@ -1,0 +1,12 @@
+.Search{
+        width: 975px;
+        height: 75px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+        box-sizing: border-box;
+        position: relative;
+        top: 30px;
+        left:25px;
+        transform: translate(-50%, -50%);
+}

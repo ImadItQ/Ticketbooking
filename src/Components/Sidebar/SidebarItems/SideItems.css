@@ -1,0 +1,21 @@
+.NavigationItems {
+    margin: 5px;
+    padding:13px;
+    list-style: none;
+    display: block;
+    align-items: center;
+    font-size: 25px;
+    width: 20%;
+    height: 100%;
+}
+p{
+    padding:10px;
+    margin: auto;
+    color: gray;
+    font-size: 24px;
+}
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+}
