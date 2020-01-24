@@ -1,6 +1,6 @@
 .images{
     text-align: center;
-    position: fixed;
+    position: absolute;
     padding: 60px;
     margin: auto;
     top:800px;
@@ -32,11 +32,10 @@
     font-size: 42px;
     font-weight:bold;
     color:black;
-    width: 100%;
     padding:10px;
-    position: fixed;
-    top: 780px;
-    right: 670px;
+    position: absolute;
+    top:5px;
+    right: 1180px;
 }
   .desc {
     padding: 15px;
